@@ -1,0 +1,52 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+html, body {
+ height: 100%;
+//  background-color: #FFEFD3;
+}
+h1, h2, h3, h4, h5, h6, p {
+ margin-bottom: 16px
+}
+
+@font-face {
+    font-family: dosis_regular;
+    src: url(../css/fonts/Dosis-Regular.ttf);
+}
+
+@font-face {
+    font-family: dosis_bold;
+    src: url(../css/fonts/Dosis-Bold.ttf);
+}
+
+@font-face {
+    font-family: dosis_semiBold;
+    src: url(../css/fonts/Dosis-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: dosis_extraBold;
+    src: url(../css/fonts/Dosis-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: dosis_light;
+    src: url(../css/fonts/Dosis-Light.ttf);
+}
+
+@font-face {
+    font-family: dosis_light;
+    src: url(../css/fonts/Dosis-Light.ttf);
+}
+
+@font-face {
+    font-family: dosis_extraLight;
+    src: url(../css/fonts/Dosis-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: dosis_medium;
+    src: url(../css/fonts/Dosis-Medium.ttf);
+}

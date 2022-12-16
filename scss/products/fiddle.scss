@@ -1,0 +1,202 @@
+.hero_four {
+    width: 100%;
+    height: 60px;
+    background-color: #FFEFD3;
+    margin-top: -60px;
+}
+
+.main_boxes2 {
+    width: 1300px;
+    height: 780px;
+    // background-color: blue;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .desc1 {
+        width: 500px;
+        height: 600px;
+        // background-color: aqua;
+
+
+        .headline1{
+            width: 500px;
+            height: 80px;
+            // background-color: pink;
+            margin-top: 40px;
+            border-bottom: 2px solid #001B2E;
+
+            h2 {
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-weight: lighter;
+                font-size: 30px;
+            }
+
+            .price1 {
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-weight: lighter;
+                font-size: 24px;
+
+                display: flex;
+                justify-content: right;
+                margin-right: 10px;
+            }
+        }
+
+        .size_link {
+            display: flex;
+            justify-content: right;
+            margin-right: 10px;
+            margin-top: 10px;
+
+            a {
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-weight: lighter;
+                font-size: 18px;
+                color: #001B2E;
+            }
+        }
+
+        .size_1{
+            width: 500px;
+            height: 40px;
+            // background-color: pink;
+            margin-top: 26px;
+
+            .btn_boxes1 {
+                
+                button {
+                    width: 180px;
+                    height: 40px;
+                    background-color: #001B2E;
+                    color: #fff;
+                    border-style: none;
+                    
+        
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    font-size: 20px;
+                    font-weight: lighter;
+                }
+            }
+        }
+
+        .style_link {
+            display: flex;
+            justify-content: right;
+            margin-right: 10px;
+            margin-top: 10px;
+
+            a {
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-weight: lighter;
+                font-size: 18px;
+                color: #001B2E;
+            }
+        }
+
+        .style_1{
+            width: 500px;
+            height: 60px;
+            // background-color: pink;
+            margin-top: 20px;
+
+            .btn_boxes2 {
+                display: flex;
+                justify-content: space-between;
+
+                button {
+                    width: 120px;
+                    height: 40px;
+                    background-color: #ADB6C4;
+                    color: #fff;
+                    border-style: none;
+                    
+        
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    font-size: 20px;
+                    font-weight: lighter;
+                }
+            }
+        }
+
+        .cart_btn {
+            button {
+                width: 340px;
+                height: 40px;
+                background-color: #001B2E;
+                color: #fff;
+                border-style: none;
+                margin-top: 40px;
+                margin-left: 80px;
+    
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 20px;
+                font-weight: lighter;
+            }
+        }
+    }
+
+    .pic_box1 {
+        width: 660px;
+        height: 680px;
+        // background-color: antiquewhite;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .side_pics {
+            width: 180px;
+            height: 680px;
+            // background-color: aqua;
+
+            display: grid;
+
+            .sm_pic1 {
+                width: 180px;
+                height: 220px;
+                background-color: violet;
+
+                background-image: url(../images/fiddle1.png);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+
+            .sm_pic2 {
+                width: 180px;
+                height: 220px;
+                background-color: violet;
+
+                background-image: url(../images/fiddle2.png);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+
+            .sm_pic3 {
+                width: 180px;
+                height: 220px;
+                background-color: violet;
+
+                background-image: url(../images/fiddle3.png);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+        }
+    
+        .main_pic1 {
+            width: 400px;
+            height: 600px;
+            background-color: aqua;
+
+            background-image: url(../images/fiddle.png);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+        }
+    }
+}

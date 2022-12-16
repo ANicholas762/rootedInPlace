@@ -1,0 +1,184 @@
+.hero_four {
+  width: 100%;
+  height: 60px;
+  background-color: #FFEFD3;
+  margin-top: -60px;
+}
+
+.main_boxes2 {
+  width: 1300px;
+  height: 780px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.main_boxes2 .desc1 {
+  width: 500px;
+  height: 600px;
+}
+.main_boxes2 .desc1 .headline1 {
+  width: 500px;
+  height: 80px;
+  margin-top: 40px;
+  border-bottom: 2px solid #001B2E;
+}
+.main_boxes2 .desc1 .headline1 h2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: lighter;
+  font-size: 30px;
+}
+.main_boxes2 .desc1 .headline1 .price1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: lighter;
+  font-size: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  margin-right: 10px;
+}
+.main_boxes2 .desc1 .size_link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.main_boxes2 .desc1 .size_link a {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: lighter;
+  font-size: 18px;
+  color: #001B2E;
+}
+.main_boxes2 .desc1 .size_1 {
+  width: 500px;
+  height: 40px;
+  margin-top: 26px;
+}
+.main_boxes2 .desc1 .size_1 .btn_boxes1 button {
+  width: 180px;
+  height: 40px;
+  background-color: #001B2E;
+  color: #fff;
+  border-style: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+}
+.main_boxes2 .desc1 .style_link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.main_boxes2 .desc1 .style_link a {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: lighter;
+  font-size: 18px;
+  color: #001B2E;
+}
+.main_boxes2 .desc1 .style_1 {
+  width: 500px;
+  height: 60px;
+  margin-top: 20px;
+}
+.main_boxes2 .desc1 .style_1 .btn_boxes2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.main_boxes2 .desc1 .style_1 .btn_boxes2 button {
+  width: 120px;
+  height: 40px;
+  background-color: #ADB6C4;
+  color: #fff;
+  border-style: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+}
+.main_boxes2 .desc1 .cart_btn button {
+  width: 340px;
+  height: 40px;
+  background-color: #001B2E;
+  color: #fff;
+  border-style: none;
+  margin-top: 40px;
+  margin-left: 80px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+}
+.main_boxes2 .pic_box1 {
+  width: 660px;
+  height: 680px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.main_boxes2 .pic_box1 .side_pics {
+  width: 180px;
+  height: 680px;
+  display: -ms-grid;
+  display: grid;
+}
+.main_boxes2 .pic_box1 .side_pics .sm_pic1 {
+  width: 180px;
+  height: 220px;
+  background-color: violet;
+  background-image: url(../images/fiddle1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.main_boxes2 .pic_box1 .side_pics .sm_pic2 {
+  width: 180px;
+  height: 220px;
+  background-color: violet;
+  background-image: url(../images/fiddle2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.main_boxes2 .pic_box1 .side_pics .sm_pic3 {
+  width: 180px;
+  height: 220px;
+  background-color: violet;
+  background-image: url(../images/fiddle3.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.main_boxes2 .pic_box1 .main_pic1 {
+  width: 400px;
+  height: 600px;
+  background-color: aqua;
+  background-image: url(../images/fiddle.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
